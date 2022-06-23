@@ -4,7 +4,6 @@ const sharp = require('sharp')
 const express = require('express')
 const User = require('../models/user')
 const auth = require('../middleware/auth')
-// const { sendWelcomeEmail } = require('../emails/account')
 const router = new express.Router()
 
 router.post('/users', async (req, res) => {
